@@ -11,50 +11,49 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Fedezd fel az előnyeinket",
+  desc: "Ezen a helyen kiemelheted az Eco Connect platform legfontosabb előnyeit vagy funkcióit. Az alábbi példában képet vagy illusztrációt is használhatsz, valamint néhány pontban bemutathatod a részleteket.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Jobban megértheted ügyfeleidet",
+      desc: "Tisztán és egyszerűen mutasd be ezt az előnyt egy-két mondatban.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Könnyítsd meg a zöld megoldásokhoz való hozzáférést",
+      desc: "Mutasd be, hogyan támogatja az Eco Connect az új ügyfelek megszerzését.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Növeld a fenntartható ügyfélkapcsolatokat",
+      desc: "Ez lehet a záró pont, amely a hosszú távú előnyöket hangsúlyozza.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Még több előny, amely melletted szól",
+  desc: "Használhatod ezt a szekciót arra, hogy további Eco Connect előnyöket mutass be egy másik nézőpontból, képekkel és hasonló pontokkal, mint az előző részben.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Mobilbarát és reszponzív kialakítás",
+      desc: "Az Eco Connect platformot mobilbarát és reszponzív kialakítás jellemzi.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Modern technológiákra építve",
+      desc: "A legújabb technológiákra és eszközökre alapozva kínáljuk megoldásainkat.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Világos és sötét mód",
+      desc: "Az Eco Connect automatikusan alkalmazkodik a világos és sötét módokhoz.",
       icon: <SunIcon />,
     },
   ],
 };
 
-
-export {benefitOne, benefitTwo};
+export { benefitOne, benefitTwo };
