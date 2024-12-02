@@ -24,14 +24,12 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Nextly</span>
+                <span>EcoConnect</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+            Az EcoConnect egy innovatív platform, amely összeköti a vállalkozásokat a zöld technológiákkal és fenntartható megoldásokkal. Segítünk, hogy a környezettudatos választások egyszerűek és hatékonyak legyenek mindenki számára.
             </div>
 
             <div className="mt-5">
