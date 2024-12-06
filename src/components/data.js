@@ -1,15 +1,13 @@
 import {
   BanknotesIcon,
-  ChartBarSquareIcon,
-  CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
   FaceSmileIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/research.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/research1.svg";
+import benefitTwoImg from "../../public/img/research2.svg";
 
 const benefitOne = {
   title: "Research Findings",
@@ -30,23 +28,23 @@ const benefitOne = {
 };
 
 const benefitTwo = {
-  title: "Még több előny, amely melletted szól",
-  desc: "Használhatod ezt a szekciót arra, hogy további Eco Connect előnyöket mutass be egy másik nézőpontból, képekkel és hasonló pontokkal, mint az előző részben.",
+  title: "Summary of User Research",
+  desc: "Insights gathered from our user research to guide our strategy.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobilbarát és reszponzív kialakítás",
-      desc: "Az Eco Connect platformot mobilbarát és reszponzív kialakítás jellemzi.",
+      title: "Positive Experiences",
+      desc: "More than two-thirds of people already buy discounted or slightly defective products and are happy with them, which aligns with international data.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Modern technológiákra építve",
-      desc: "A legújabb technológiákra és eszközökre alapozva kínáljuk megoldásainkat.",
+      title: "Popular Categories",
+      desc: "Popular categories are electronics, appliances, and furniture.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Világos és sötét mód",
-      desc: "Az Eco Connect automatikusan alkalmazkodik a világos és sötét módokhoz.",
+      title: "Willingness to Save",
+      desc: "80% would buy damaged items if they still work and are cheaper.",
       icon: <SunIcon />,
     },
   ],

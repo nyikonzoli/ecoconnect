@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/earth.png";
+import heroImg from "../../public/img/earth.svg";
 
 export const Hero = () => {
   return (
@@ -39,12 +39,11 @@ export const Hero = () => {
               className={"object-cover"}
               alt="Fenntarthatósági illusztráció"
               loading="eager"
-              placeholder="blur"
             />
           </div>
         </div>
       </Container>
-      <Container>
+      {/*<Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Már <span className="text-green-600">2000+</span> ügyfél bízik
@@ -69,7 +68,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </Container>*/}
     </>
   );
 };

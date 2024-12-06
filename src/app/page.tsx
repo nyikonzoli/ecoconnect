@@ -114,7 +114,7 @@ export default function Home() {
         </p>
       </SectionTitle>
 
-      <Benefits data={benefitOne} />
+      <Benefits data={benefitOne} imgPos="left" />
       <SectionTitle preTitle="Our Unique Focus" title="What makes us different">
         <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
           Several players in the market provide similar solutions (e.g., green
@@ -123,7 +123,7 @@ export default function Home() {
         </p>
       </SectionTitle>
 
-      <div className="flex md:flex-row flex-col-reverse justify-between items-center">
+      <div className="flex md:flex-row flex-col-reverse justify-between items-center mb-16">
         <SectionTitle
           preTitle="How It All Began"
           title="Our journey"
@@ -141,13 +141,13 @@ export default function Home() {
           </p>
         </SectionTitle>
         <img
-          src="/img/earth.png"
+          src="/img/earth.svg"
           alt=""
           className="md:w-1/2 w-11/12 max-w-[500px]"
         />
       </div>
 
-      <Benefits imgPos="right" data={benefitTwo} />
+      <Benefits imgPos="left" data={benefitTwo} />
 
       <Testimonials />
 
