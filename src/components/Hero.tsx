@@ -18,7 +18,7 @@ export const Hero = () => {
               individuals and non-profits.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
                 href="#"
                 target="_blank"
@@ -27,7 +27,7 @@ export const Hero = () => {
               >
                 Learn more
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2">
