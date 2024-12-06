@@ -154,8 +154,8 @@ export default function Home() {
       <Testimonials />
       <SectionTitle preTitle="Work with us!" title="Conclusion" align="center">
         <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
-          Our platform solves companies' surplus inventory problems and helps
-          shoppers save money and live sustainably.
+          Our platform solves companies&apos; surplus inventory problems and
+          helps shoppers save money and live sustainably.
         </p>
         <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
           Together, we can reduce our ecological footprint and support a culture
