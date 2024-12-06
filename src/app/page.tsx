@@ -166,17 +166,18 @@ export default function Home() {
           generations.
         </p>
       </SectionTitle>
-      <a name="contact"></a>
-      <SectionTitle
-        preTitle="Feel free to reach out"
-        title="Contact Us"
-        align="center"
-      >
-        <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
-          We are looking for investors and conenctions in this field.
-        </p>
-        <FormPage />
-      </SectionTitle>
+      <div id="contact">
+        <SectionTitle
+          preTitle="Feel free to reach out"
+          title="Contact Us"
+          align="center"
+        >
+          <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+            We are looking for investors and conenctions in this field.
+          </p>
+          <FormPage />
+        </SectionTitle>
+      </div>
     </Container>
   );
 }
