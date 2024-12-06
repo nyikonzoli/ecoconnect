@@ -44,12 +44,14 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              I&apos;ve tried myself in many fields, like civil- and
+              electrical-engineering, but all this time my A-project was
+              <Mark>electronic music producing</Mark>. I would call myself an
+              artistic soul, a creative thinker.
             </p>
 
             <Avatar
-              image={"/img/people/czuczor.jpg"}
+              image={"/img/people/toth.png"}
               name="Gábor Tóth"
               title="Co-founder"
             />
