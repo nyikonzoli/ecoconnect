@@ -12,9 +12,11 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              I graduated in <Mark>Design and Art Management</Mark> with a specialization in curating.
-              Currently, I am continuing my studies and working as a curatorial assistant.
-              Additionally, I am an intern at Budapest Metropolitan University, where I am involved in education, teaching, and <Mark>project management</Mark>.
+              I graduated in <Mark>Design and Art Management</Mark> with a
+              specialization in curating. Currently, I am continuing my studies
+              and working as a curatorial assistant. Additionally, I am an
+              intern at Budapest Metropolitan University, where I am involved in
+              education, teaching, and <Mark>project management</Mark>.
             </p>
 
             <Avatar
@@ -57,9 +59,9 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              I'm a third year computer engeneering student with a few years of
-              experience in IT and I also have a small <Mark>web agency</Mark>{" "}
-              which I do with a couple of friends.
+              I&apos;m a third year computer engeneering student with a few
+              years of experience in IT and I also have a small{" "}
+              <Mark>web agency</Mark> which I do with a couple of friends.
             </p>
 
             <Avatar
