@@ -9,10 +9,10 @@ import userThreeImg from "../../public/img/user3.jpg";
 export const Testimonials = () => {
   return (
     <Container>
-      <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
+      <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-lg leading-normal ">
               Share a real <Mark>testimonial</Mark>
               that hits some of your benefits from one of your popular customer.
             </p>
@@ -26,7 +26,7 @@ export const Testimonials = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-lg leading-normal ">
               Make sure you only pick the <Mark>right sentence</Mark>
               to keep it short and simple.
             </p>
@@ -40,7 +40,21 @@ export const Testimonials = () => {
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
-            <p className="text-2xl leading-normal ">
+            <p className="text-lg leading-normal ">
+              This is an <Mark>awesome</Mark> landing page template I&apos;ve
+              seen. I would use this for anything.
+            </p>
+
+            <Avatar
+              image={userThreeImg}
+              name="Gabrielle Winn"
+              title="Co-founder of Acme Inc"
+            />
+          </div>
+        </div>
+        <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
+            <p className="text-lg leading-normal ">
               This is an <Mark>awesome</Mark> landing page template I&apos;ve
               seen. I would use this for anything.
             </p>
