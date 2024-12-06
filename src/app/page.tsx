@@ -10,6 +10,7 @@ import { CheckCircleIcon, UserIcon } from "@heroicons/react/24/solid";
 import { BriefcaseIcon } from "@heroicons/react/24/solid";
 
 import { benefitOne, benefitTwo } from "@/components/data";
+import FormPage from "@/components/formSection/FormPage";
 export default function Home() {
   return (
     <Container>
@@ -150,7 +151,16 @@ export default function Home() {
       <Benefits imgPos="left" data={benefitTwo} />
 
       <Testimonials />
-
+      <SectionTitle
+        preTitle="Feel free to reach out"
+        title="Contact Us"
+        align="center"
+      >
+        <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+          We are looking for investors and conenctions in this field.
+        </p>
+        <FormPage />
+      </SectionTitle>
       <Faq />
       <Cta />
     </Container>
