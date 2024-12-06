@@ -15,7 +15,7 @@ const config: Config = {
     extend: {
       colors: {
         trueGray: colors.neutral,
-        primary: "rgb(100, 173, 119)",
+        primary: "rgb(78, 168, 98)",
       },
     },
     fontFamily: {
