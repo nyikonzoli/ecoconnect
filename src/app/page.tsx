@@ -122,6 +122,31 @@ export default function Home() {
           food. We specialize in electronics and household items.
         </p>
       </SectionTitle>
+
+      <div className="flex md:flex-row flex-col-reverse justify-between items-center">
+        <SectionTitle
+          preTitle="How It All Began"
+          title="Our journey"
+          align="left"
+        >
+          <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+            At first we were planning to sell goods in many product categories,
+            but after seeing the results of the desktop research and consulting
+            with our mentor we came to the conclusion that we should focus on
+            one specific product category.
+            <br /> <br />
+            We decided to choose this path because our competitors also focus on
+            one category and if we succeed with our chosen field we can always
+            just expand from that point on.
+          </p>
+        </SectionTitle>
+        <img
+          src="/img/earth.png"
+          alt=""
+          className="md:w-1/2 w-11/12 max-w-[500px]"
+        />
+      </div>
+
       <Benefits imgPos="right" data={benefitTwo} />
 
       <Testimonials />
