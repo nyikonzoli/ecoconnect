@@ -152,11 +152,7 @@ export default function Home() {
       <Benefits imgPos="left" data={benefitTwo} />
 
       <Testimonials />
-      <SectionTitle
-        preTitle="Feel free to reach out"
-        title="Contact Us"
-        align="center"
-      >
+      <SectionTitle preTitle="Work with us!" title="Conclusion" align="center">
         <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
           Our platform solves companies' surplus inventory problems and helps
           shoppers save money and live sustainably.
@@ -170,7 +166,11 @@ export default function Home() {
           generations.
         </p>
       </SectionTitle>
-      <SectionTitle preTitle="Work with us!" title="Conclusion" align="center">
+      <SectionTitle
+        preTitle="Feel free to reach out"
+        title="Contact Us"
+        align="center"
+      >
         <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
           We are looking for investors and conenctions in this field.
         </p>

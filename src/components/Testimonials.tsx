@@ -5,6 +5,9 @@ import { Container } from "@/components/Container";
 export const Testimonials = () => {
   return (
     <Container>
+      <h2 className="text-center w-full my-4 mb-12 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
+        Meet the team
+      </h2>
       <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
