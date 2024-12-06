@@ -21,7 +21,7 @@ export default function Home() {
         <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow max-w-sm mx-auto bg-slate-50">
             <div className="flex justify-center mb-4">
-              <div className="bg-green-500 text-white p-4 rounded-lg flex items-center justify-center shadow-md">
+              <div className="bg-primary text-white p-4 rounded-lg flex items-center justify-center shadow-md">
                 <BriefcaseIcon className="h-8 w-8" aria-hidden="true" />
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function Home() {
               ].map((benefit, index) => (
                 <li key={index} className="flex items-start text-left">
                   <CheckCircleIcon
-                    className="h-6 w-6 text-green-500 mr-3 flex-shrink-0 mt-0.5"
+                    className="h-6 w-6 text-primary mr-3 flex-shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                   <span className="text-gray-700">{benefit}</span>
@@ -54,7 +54,7 @@ export default function Home() {
               ].map((benefit, index) => (
                 <li key={index} className="flex items-start text-left">
                   <CheckCircleIcon
-                    className="h-6 w-6 text-green-500 mr-3 flex-shrink-0 mt-0.5"
+                    className="h-6 w-6 text-primary mr-3 flex-shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                   <span className="text-gray-700">{benefit}</span>
@@ -64,7 +64,7 @@ export default function Home() {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow max-w-sm mx-auto bg-slate-50">
             <div className="flex justify-center mb-4">
-              <div className="bg-green-500 text-white p-4 rounded-lg flex items-center justify-center shadow-md">
+              <div className="bg-primary text-white p-4 rounded-lg flex items-center justify-center shadow-md">
                 <UserIcon className="h-8 w-8" aria-hidden="true" />
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function Home() {
               ].map((benefit, index) => (
                 <li key={index} className="flex items-start text-left">
                   <CheckCircleIcon
-                    className="h-6 w-6 text-green-500 mr-3 flex-shrink-0 mt-0.5"
+                    className="h-6 w-6 text-primary mr-3 flex-shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                   <span className="text-gray-700">{benefit}</span>
@@ -95,7 +95,7 @@ export default function Home() {
               ].map((benefit, index) => (
                 <li key={index} className="flex items-start text-left">
                   <CheckCircleIcon
-                    className="h-6 w-6 text-green-500 mr-3 flex-shrink-0 mt-0.5"
+                    className="h-6 w-6 text-primary mr-3 flex-shrink-0 mt-0.5"
                     aria-hidden="true"
                   />
                   <span className="text-gray-700">{benefit}</span>
