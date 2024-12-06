@@ -19,7 +19,6 @@ export default function Home() {
         title="How it helps and who are we targeting?"
       >
         <div className="mt-12 grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-          {/* Business Benefits Card */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow max-w-sm mx-auto bg-slate-50">
             <div className="flex justify-center mb-4">
               <div className="bg-green-500 text-white p-4 rounded-lg flex items-center justify-center shadow-md">
@@ -63,8 +62,6 @@ export default function Home() {
               ))}
             </ul>
           </div>
-
-          {/* Individual Benefits Card */}
           <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow max-w-sm mx-auto bg-slate-50">
             <div className="flex justify-center mb-4">
               <div className="bg-green-500 text-white p-4 rounded-lg flex items-center justify-center shadow-md">
@@ -118,33 +115,16 @@ export default function Home() {
       </SectionTitle>
 
       <Benefits data={benefitOne} />
+      <SectionTitle preTitle="Our Unique Focus" title="What makes us different">
+        <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+          Several players in the market provide similar solutions (e.g., green
+          stores, Munch), but everyone often focuses on specific products like
+          food. We specialize in electronics and household items.
+        </p>
+      </SectionTitle>
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
-        preTitle="Watch a video"
-        title="Learn how to fullfil your needs"
-      >
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
-      </SectionTitle>
-
-      <Video videoId="fZ0D0cnR88E" />
-
-      <SectionTitle
-        preTitle="Testimonials"
-        title="Here's what our customers said"
-      >
-        Testimonials is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
-      </SectionTitle>
-
       <Testimonials />
-
-      <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
 
       <Faq />
       <Cta />
