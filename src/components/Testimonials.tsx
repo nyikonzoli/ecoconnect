@@ -26,8 +26,7 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+              I have been engaged in business development and company building in the IT sector since 2004, gaining extensive experience in this field.
             </p>
 
             <Avatar
