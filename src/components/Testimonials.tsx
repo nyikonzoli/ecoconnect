@@ -12,9 +12,11 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              <Mark>Art manager & kurator</Mark> Additionally, I am an intern at
-              Budapest Metropolitan University, where I am involved in
-              education, teaching, and project management.
+              <Mark>Art manager & kurator</Mark>
+              <br />
+              Additionally, I am an intern at Budapest Metropolitan University,
+              where I am involved in education, teaching, and
+              <Mark>project management</Mark>.
             </p>
 
             <Avatar
