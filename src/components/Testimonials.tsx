@@ -26,7 +26,9 @@ export const Testimonials = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              I have been engaged in business development and company building in the IT sector since 2004, gaining extensive experience in this field.
+              I have been engaged in <Mark>business development</Mark>and
+              company building in the IT sector since 2004, gaining extensive
+              experience in this field.
             </p>
 
             <Avatar
@@ -54,8 +56,9 @@ export const Testimonials = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
+              I'm a third year computer engeneering student with a few years of
+              experience in IT and I also have a small <Mark>web agency</Mark>{" "}
+              which I do with a couple of friends.
             </p>
 
             <Avatar
@@ -100,7 +103,7 @@ function Mark(props: { readonly children: React.ReactNode }) {
   return (
     <>
       {" "}
-      <mark className="text-indigo-800 bg-indigo-100 rounded-md ring-indigo-100 ring-4 dark:ring-indigo-900 dark:bg-indigo-900 dark:text-indigo-200">
+      <mark className="text-primary bg-primary/10 rounded-md bg-primary/10 ring-4 ring-primary/10">
         {props.children}
       </mark>{" "}
     </>
