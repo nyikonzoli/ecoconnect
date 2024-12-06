@@ -123,6 +123,7 @@ export default function Home() {
           food. We specialize in electronics and household items.
         </p>
       </SectionTitle>
+      <Cta />
 
       <div className="flex md:flex-row flex-col-reverse justify-between items-center mb-16">
         <SectionTitle
@@ -157,12 +158,24 @@ export default function Home() {
         align="center"
       >
         <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+          Our platform solves companies' surplus inventory problems and helps
+          shoppers save money and live sustainably.
+        </p>
+        <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+          Together, we can reduce our ecological footprint and support a culture
+          of environmentally conscious shopping.
+        </p>
+        <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
+          Take your part: use Ecoconnect for a brighter future of the next
+          generations.
+        </p>
+      </SectionTitle>
+      <SectionTitle preTitle="Work with us!" title="Conclusion" align="center">
+        <p className="max-w-2xl pt-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
           We are looking for investors and conenctions in this field.
         </p>
         <FormPage />
       </SectionTitle>
-      <Faq />
-      <Cta />
     </Container>
   );
 }
