@@ -66,7 +66,7 @@ export const Testimonials = () => {
 
             <Avatar
               image={"/img/people/zoli.png"}
-              name="Zoltán Ferenc"
+              name="Zoltán Nyikon"
               title="Co-founder"
             />
           </div>
