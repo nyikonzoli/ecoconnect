@@ -16,14 +16,14 @@ export const Navbar = () => {
           <span className="flex items-center space-x-2 text-2xl font-medium text-primary dark:text-gray-100">
             <span>
               <Image
-                src="/img/logo.svg"
-                width="32"
-                alt="N"
-                height="32"
-                className="w-8"
+                src="/img/ecoconnect-logo.png"
+                width="128"
+                alt="ECOCONNECT logo"
+                height="128"
+                className="w-28 rounded-lg mr-4"
               />
             </span>
-            <span>EcoConnect</span>
+            <span className="font-bold text-xxl">ECOCONNECT</span>
           </span>
         </Link>
 

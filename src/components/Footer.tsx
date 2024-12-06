@@ -15,21 +15,21 @@ export function Footer() {
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
+                className="flex items-center space-x-2 text-2xl font-medium text-primary dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/ecoconnect-logo.png"
                   alt="N"
-                  width="32"
-                  height="32"
-                  className="w-8"
+                  width="128"
+                  height="128"
+                  className="w-28 rounded-lg mr-4"
                 />
-                <span>EcoConnect</span>
+                <span className="font-bold text-xxl">ECOCONNECT</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-            Az EcoConnect egy innovatív platform, amely összeköti a vállalkozásokat a zöld technológiákkal és fenntartható megoldásokkal. Segítünk, hogy a környezettudatos választások egyszerűek és hatékonyak legyenek mindenki számára.
+            Our platform helps companies to sell or donate products they otherwise can’t — like items close to expiration, with damaged packaging, or minor defects — to individuals and non-profits.
             </div>
 
             <div className="mt-5">
