@@ -1,34 +1,30 @@
 import {
-  FaceSmileIcon,
+  BanknotesIcon,
   ChartBarSquareIcon,
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  FaceSmileIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitOneImg from "../../public/img/research.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Fedezd fel az előnyeinket",
-  desc: "Ezen a helyen kiemelheted az Eco Connect platform legfontosabb előnyeit vagy funkcióit. Az alábbi példában képet vagy illusztrációt is használhatsz, valamint néhány pontban bemutathatod a részleteket.",
+  title: "Research Findings",
+  desc: "We made a research on the international market regarding this topic and our finding were the following:",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Jobban megértheted ügyfeleidet",
-      desc: "Tisztán és egyszerűen mutasd be ezt az előnyt egy-két mondatban.",
+      title: "Sustainability Matters",
+      desc: "60% of shoppers care about buying sustainably, and 34% would even pay more for it.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Könnyítsd meg a zöld megoldásokhoz való hozzáférést",
-      desc: "Mutasd be, hogyan támogatja az Eco Connect az új ügyfelek megszerzését.",
-      icon: <ChartBarSquareIcon />,
-    },
-    {
-      title: "Növeld a fenntartható ügyfélkapcsolatokat",
-      desc: "Ez lehet a záró pont, amely a hosszú távú előnyöket hangsúlyozza.",
-      icon: <CursorArrowRaysIcon />,
+      title: "Younger Generations Care",
+      desc: "Millennials and Gen Z are especially interested in discounted, sustainable products.",
+      icon: <BanknotesIcon />,
     },
   ],
 };

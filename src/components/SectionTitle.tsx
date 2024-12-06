@@ -13,7 +13,8 @@ export const SectionTitle = (props: Readonly<SectionTitleProps>) => {
     <Container
       className={`flex w-full flex-col mt-4 ${
         props.align === "left" ? "" : "items-center justify-center text-center"
-      }`}>
+      }`}
+    >
       {props.preTitle && (
         <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">
           {props.preTitle}
@@ -26,12 +27,7 @@ export const SectionTitle = (props: Readonly<SectionTitleProps>) => {
         </h2>
       )}
 
-      {props.children && (
-        <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300">
-          {props.children}
-        </p>
-      )}
+      {props.children}
     </Container>
   );
-}
-
+};
