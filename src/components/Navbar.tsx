@@ -20,7 +20,7 @@ export const Navbar = () => {
                 width="128"
                 alt="ECOCONNECT logo"
                 height="128"
-                className="w-28 rounded-lg mr-4"
+                className="w-12 rounded-lg mr-2"
               />
             </span>
             <span className="font-bold text-xxl">ECOCONNECT</span>

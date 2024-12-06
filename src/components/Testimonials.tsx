@@ -6,6 +6,20 @@ export const Testimonials = () => {
   return (
     <Container>
       <div className="grid gap-4 lg:grid-cols-2 xl:grid-cols-4">
+        <div className="">
+          <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
+            <p className="text-lg leading-normal ">
+              This is an <Mark>awesome</Mark> landing page template I&apos;ve
+              seen. I would use this for anything.
+            </p>
+
+            <Avatar
+              image={"/img/people/reka.png"}
+              name="Réka Vörös"
+              title="Founder"
+            />
+          </div>
+        </div>
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
@@ -34,20 +48,7 @@ export const Testimonials = () => {
             />
           </div>
         </div>
-        <div className="">
-          <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
-            <p className="text-lg leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve
-              seen. I would use this for anything.
-            </p>
 
-            <Avatar
-              image={"/img/people/reka.png"}
-              name="Réka Vörös"
-              title="Founder"
-            />
-          </div>
-        </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 p-8 rounded-2xl  dark:bg-trueGray-800">
             <p className="text-lg leading-normal ">
