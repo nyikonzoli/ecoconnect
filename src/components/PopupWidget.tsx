@@ -159,7 +159,7 @@ export function PopupWidget() {
                         <input
                           type="text"
                           id="full_name"
-                          placeholder="John Doe"
+                          placeholder="Full Name"
                           {...register("name", {
                             required: "Full name is required",
                             maxLength: 80,

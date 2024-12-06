@@ -12,7 +12,7 @@ export default function FormPage() {
               name="name"
               id="name"
               className="w-full bg-transparent border-2 border-n90 rounded-md p-2 text-n400 font-paragraph focus:outline-none focus:ring-2 focus:ring-n900 focus:border-n900"
-              placeholder="John Doe"
+              placeholder="Full Name"
             />
           </div>
 
@@ -25,7 +25,7 @@ export default function FormPage() {
               name="email"
               id="email"
               className="w-full bg-transparent border-2 border-n90 rounded-md p-2 text-n400 font-paragraph focus:outline-none focus:ring-2 focus:ring-n900 focus:border-n900"
-              placeholder="john.doe@example.com"
+              placeholder="E-mail address like name@company.com"
             />
           </div>
 
@@ -38,7 +38,7 @@ export default function FormPage() {
               name="tel"
               id="tel"
               className="w-full bg-transparent border-2 border-n90 rounded-md p-2 text-n400 font-paragraph focus:outline-none focus:ring-2 focus:ring-n900 focus:border-n900"
-              placeholder="+12345678901"
+              placeholder="Phone number like +12345678901"
             />
           </div>
 
@@ -50,7 +50,7 @@ export default function FormPage() {
               name="desc"
               id="desc"
               className="w-full bg-transparent border-2 border-n90 rounded-md p-2 text-n400 font-paragraph focus:outline-none focus:ring-2 focus:ring-n900 focus:border-n900 resize-none"
-              placeholder="Description"
+              placeholder="Message for us"
               rows={4}
             />
           </div>

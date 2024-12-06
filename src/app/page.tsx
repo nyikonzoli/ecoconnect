@@ -166,6 +166,7 @@ export default function Home() {
           generations.
         </p>
       </SectionTitle>
+      <a name="contact"></a>
       <SectionTitle
         preTitle="Feel free to reach out"
         title="Contact Us"
