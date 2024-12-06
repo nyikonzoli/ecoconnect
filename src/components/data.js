@@ -1,9 +1,9 @@
 import {
   BanknotesIcon,
-  DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
-  SunIcon,
   FaceSmileIcon,
+  ChartPieIcon,
+  CreditCardIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../../public/img/research1.svg";
@@ -35,7 +35,7 @@ const benefitTwo = {
     {
       title: "Positive Experiences",
       desc: "More than two-thirds of people already buy discounted or slightly defective products and are happy with them, which aligns with international data.",
-      icon: <DevicePhoneMobileIcon />,
+      icon: <ChartPieIcon />,
     },
     {
       title: "Popular Categories",
@@ -45,7 +45,7 @@ const benefitTwo = {
     {
       title: "Willingness to Save",
       desc: "80% would buy damaged items if they still work and are cheaper.",
-      icon: <SunIcon />,
+      icon: <CreditCardIcon />,
     },
   ],
 };
